@@ -1,0 +1,49 @@
+\documentclass[a4paper]{article}
+    \usepackage[utf8]{inputenc}
+    \usepackage{amsmath}
+    \title{Analysis of the Increase and Decrease Algorithms for Congestion Avoidance in Computer Networks}
+    \author{Original authors: Dah-Ming CHIU and Raj JAIN\\Summarized by Wenjie XU}
+    \begin{document}
+    \maketitle
+    \section{Justification}
+    \begin{itemize}
+      \item Throughput and response time are the two main factors affecting the quality of service in computer networks. Both of them are a function of load. There is a point called \textsl{cliff} after which the throughput drops and the response time increases drastically. There is also a point called \textsl{knee} after which the increase in the throughput is small but a significant increase in the response time results.    
+      \item Traditional congestion control schemes try to keep the network operating in the zone to the left of the \textsl{cliff}. However, this paper considers a class of congestion avoidance schemes called increase/decrease algorithms aiming to keep the network operating around \textsl{knee}.   
+    \end{itemize}
+    
+    \section{Assumptions}
+    \begin{itemize} 
+    \item All the users sharing the same bottleneck will receive the same feedback.
+    \item The feedback and control loop for all users are synchronous.
+    \end{itemize} 
+    
+    \section{System Model}
+    The paper considers the control model as shown in 
+    \[
+        y(t)=\left\{
+                    \begin{array}{ll}
+                      1\Longrightarrow \textrm{Increase load}\\
+                      0\Longrightarrow \textrm{Decrease load}.
+                    \end{array}
+                  \right.
+      \]
+    
+    \section{Main Points}
+    \begin{itemize}
+      \item 
+      \item 
+    \end{itemize}
+    
+    \section{Results}
+    \begin{itemize}
+      \item
+    \end{itemize}
+    
+    
+    \section{Future Work}
+    In order to satisfy the requirements of distributed convergence to efficiency and fairness without truncation, the linear decrease policy should be multiplicative, and the linear increase policy should always 
+have an additive component, and optionally it may have a multiplicative component with the coefficient no less than one.  
+    
+    
+    \end{document}
+    
